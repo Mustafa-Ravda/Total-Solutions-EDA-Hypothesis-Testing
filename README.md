@@ -1,6 +1,7 @@
 # 🛒 Total Solutions Purchase Analysis
 
-![Gemini_Generated_Image_khz0z7khz0z7khz0](https://github.com/user-attachments/assets/4c3e64c2-bc14-429a-a297-9ddf03d9f982)
+![Screenshot 2025-06-21 151031](https://github.com/user-attachments/assets/3ec67a94-cf58-4441-9b99-49efd6cd6bdb)
+
 
 ## 1. 📘 Project Background  
 This project involves a comprehensive analysis of sales order data from Total Solutions, a prominent retail conglomerate with a network of stores across India. The primary objective is to extract actionable insights into business performance across various metrics and to rigorously validate previously observed key performance indicators against current data. The dataset encompasses detailed information on purchase amounts, user demographics, product categories, age groups, and other critical features. The analytical scope includes robust data cleaning, in-depth Exploratory Data Analysis (EDA), and a series of hypothesis tests designed to confirm or refute historical business assumptions.
