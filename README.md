@@ -1,141 +1,78 @@
-# Total-Solutions-EDA-Hypothesis-Testing
+🛒 Total Solutions Purchase Analysis
+1. 📘 Project Background
+This project involves a comprehensive analysis of sales order data from Total Solutions, a prominent retail conglomerate with a network of stores across India. The primary objective is to extract actionable insights into business performance across various metrics and to rigorously validate previously observed key performance indicators against current data. The dataset encompasses detailed information on purchase amounts, user demographics, product categories, age groups, and other critical features. The analytical scope includes robust data cleaning, in-depth Exploratory Data Analysis (EDA), and a series of hypothesis tests designed to confirm or refute historical business assumptions.
 
-# 🛒 Total Solutions Purchase Analysis
+2. 📊 Overview of Insights
+The detailed analysis of the purchase data has yielded several significant insights into customer demographics, purchasing patterns, and city-wise performance:
 
-## 1. 📘 Project Background
+👥 Gender Demographics and Purchase Contribution:
+The dataset comprises a total of 5,891 users, with males constituting the majority at 4,225 users and females at 1,666 users.
 
-This project involves a comprehensive analysis of sales order data from **Total Solutions**, a prominent retail conglomerate with a network of stores across India.  
-The primary objective is to extract actionable insights into business performance across various metrics and to rigorously validate previously observed key performance indicators against current data.  
+Correspondingly, men account for a substantial 75.47% of total purchases, while women contribute 24.43%.
 
-The dataset encompasses detailed information on:
-- Purchase amounts  
-- User demographics  
-- Product categories  
-- Age groups  
-- Other critical features  
+👶🧑 Age Group Performance:
+The 26-35 age group demonstrates the highest engagement and purchasing activity, recording 104,912 purchases, nearly double that of the second-highest group (36-45), which registered 52,396 purchases.
 
-The analytical scope includes:
-- ✅ Robust data cleaning  
-- ✅ In-depth Exploratory Data Analysis (EDA)  
-- ✅ A series of hypothesis tests to confirm or refute historical business assumptions  
+The 0-17 age group shows the lowest activity, with only 7,064 purchases.
 
----
+This trend extends to user count, with the 26-35 age group having the highest number of users (2,053) and the 0-17 age group having the fewest (218).
 
-## 2. 📊 Overview of Insights
+Financially, the 26-35 age group leads significantly with a total purchase amount exceeding 975 million, whereas the 0-17 age group accounts for the lowest total purchase amount, over 64 million.
 
-<details>
-<summary>👥 <strong>Gender Demographics and Purchase Contribution</strong></summary>
+Despite the lowest total purchase amount, the 0-17 age group surprisingly edges out the 55+ age group in terms of average purchase amount per user, indicating potentially higher individual spending within that younger demographic.
 
-- The dataset comprises a total of **5,891 users**  
-  - 👨‍💼 Males: **4,225 users** (75.47% of total purchases)  
-  - 👩‍💼 Females: **1,666 users** (24.43% of total purchases)
+🏙️ City Category Performance:
+City Category A accounts for the largest share of purchases at 42.25%, followed by City B at 30.83% and City C at 26.91%.
 
-</details>
+Cities in Category B consistently attract the highest total number of purchases across age groups ranging from 18-25 to 51-55.
 
-<details>
-<summary>🧓 <strong>Age Group Performance</strong></summary>
+Conversely, cities in Category C demonstrate the highest user acquisition for each age group, suggesting a broader customer base, albeit with potentially lower individual purchase values compared to City B.
 
-- **26-35** age group:
-  - 📈 Highest number of purchases: **104,912**  
-  - 👥 Highest users: **2,053**  
-  - 💰 Total purchase amount: **₹975M+**  
-- **36-45**: Second highest with **52,396 purchases**  
-- **0-17** age group:
-  - 📉 Lowest purchases: **7,064**  
-  - 📉 Lowest users: **218**  
-  - 💡 Surprisingly higher average purchase/user than 55+ age group
+This implies that City B exhibits a higher average purchase amount per user compared to both City C and City A.
 
-</details>
+💍 Marital Status and Purchase Behavior:
+The unmarried customer segment exhibits a higher average purchase amount per user, at 423,573, compared to the married group, which stands at 405,722.
 
-<details>
-<summary>🏙️ <strong>City Category Performance</strong></summary>
+Furthermore, the unmarried group also comprises a larger user base, with 3,417 users, as opposed to 2,474 users in the married group.
 
-- 🥇 **City Category A**: 42.25% of total purchases  
-- 🥈 **City Category B**: 30.83%  
-- 🥉 **City Category C**: 26.91%  
+3. ✅ Summary of Hypothesis Testing
+Four key hypotheses were rigorously tested to validate historical claims and current trends:
 
-- 📌 City B: Highest total purchases in age groups 18–55  
-- 🌍 City C: Highest user acquisition across age groups  
-- 💡 Insight: City B = higher average purchase/user vs. City A and C
+🧪 Hypothesis 1: Average Purchase by Men (18-25 Age Group)
+Original Observation: The average purchase made by men aged 18-25 was approximately 10,000.
 
-</details>
+Conclusion: Based on a t-test, there is sufficient evidence to conclude that the average purchase amount for men in the 18-25 age group is no longer 10,000. This indicates a significant shift from previous observations.
 
-<details>
-<summary>💍 <strong>Marital Status and Purchase Behavior</strong></summary>
+🧪 Hypothesis 2: Percentage of Men Spending >10,000 (18-25 vs. 26-35 Age Groups)
+Original Question: Is the percentage of men who have spent more than 10,000 the same for the 18-25 and 26-35 age groups?
 
-- **Unmarried** users:
-  - 📊 Avg purchase/user: ₹423,573  
-  - 👥 User base: 3,417  
-- **Married** users:
-  - 📉 Avg purchase/user: ₹405,722  
-  - 👥 User base: 2,474  
+Conclusion: A Z-test for proportions provided sufficient evidence to conclude that the percentage of men who have spent more than 10,000 is indeed consistent between the 18-25 and 26-35 age groups.
 
-</details>
+🧪 Hypothesis 3: Percentage of Women Spending >10,000
+Original Observation: It was observed that 35% of women spent more than 10,000.
 
----
+Conclusion: A Z-test for proportions indicates that there is enough evidence to conclude that the proportion of women who spent more than 10,000 is no longer 35%. This suggests a change in the spending habits of women compared to historical data.
 
-## 3. ✅ Summary of Hypothesis Testing
+🧪 Hypothesis 4: Variance of Purchase Amounts by Gender (18-25 Age Group)
+Original Question: Are the variances of purchase amounts significantly different between men and women in the 18-25 age group?
 
-<details>
-<summary>🧪 <strong>Hypothesis 1: Average Purchase by Men (18-25 Age Group)</strong></summary>
+Conclusion: The Levene test provided sufficient evidence to conclude that the variance of purchase amounts between men and women in the 18-25 age group is significantly different. This highlights distinct purchasing variability between genders in this demographic.
 
-- 🔍 **Original Observation**: Avg purchase ≈ ₹10,000  
-- ✅ **Conclusion**: T-test shows the avg purchase is **no longer ₹10,000**
+4. 📌 Business Recommendations
+Based on the derived insights and the outcomes of the hypothesis tests, the following strategic recommendations are proposed for Total Solutions:
 
-</details>
+📉 Re-evaluate Marketing Strategies for Men (18-25): Given that the average purchase by men in the 18-25 age group is no longer 10,000 (Hypothesis 1 rejected), it is crucial to re-evaluate and adjust marketing and sales strategies targeted at this demographic. New pricing, product bundles, or promotional offers should be designed to align with their current average spending patterns.
 
-<details>
-<summary>🧪 <strong>Hypothesis 2: % of Men Spending >₹10,000 (18-25 vs 26-35)</strong></summary>
+🔁 Maintain Consistent Strategies for Men Across Age Groups (18-35): The finding that the percentage of men spending over 10,000 is consistent between the 18-25 and 26-35 age groups (Hypothesis 2 accepted) suggests that marketing approaches for high-value male customers can be broadly similar across these two significant age segments. Focus on strategies that successfully encourage higher spending within these groups.
 
-- 🔍 **Question**: Is % the same between these two age groups?  
-- ✅ **Conclusion**: Z-test confirms the % is consistent
+👩 Address Shift in Women's Spending Habits: The significant change in the proportion of women spending over 10,000 (Hypothesis 3 rejected) necessitates a thorough investigation. Total Solutions should explore the reasons behind this shift and adapt their product offerings, promotions, and communication strategies to re-engage female customers and encourage higher purchase values.
 
-</details>
+🎯 Gender-Specific Product and Promotion Tailoring (Age 18-25): The distinct variances in purchase amounts between men and women in the 18-25 age group (Hypothesis 4 accepted) call for highly targeted product recommendations and promotions. Understanding the factors driving these differences can help optimize inventory and personalize marketing efforts more effectively for each gender.
 
-<details>
-<summary>🧪 <strong>Hypothesis 3: % of Women Spending >₹10,000</strong></summary>
+🧑‍💼 Focus on the 26-35 Age Group: This age group is consistently the most valuable across purchases, users, and total purchase amounts. Resources should be allocated to further understand and capitalize on their preferences, ensuring product availability and loyalty programs are optimized for this segment.
 
-- 🔍 **Original Observation**: 35% of women spent > ₹10,000  
-- ❌ **Conclusion**: Z-test shows this is **no longer 35%**
+🏙️ Strategic City-Category Investment: While City A has the highest overall purchases, the consistent high purchase volume in City B (across various age groups) suggests its strong potential for driving sales. Conversely, City C's higher user count, despite lower average purchases, indicates an opportunity for conversion and increasing average transaction values through targeted engagement or entry-level product offerings.
 
-</details>
+💖 Leverage Unmarried Customer Segment: The unmarried group represents a larger user base with higher average purchase amounts. Marketing efforts and loyalty programs could be specifically designed to cater to this segment, potentially focusing on individual-centric products or experiences.
 
-<details>
-<summary>🧪 <strong>Hypothesis 4: Variance by Gender (18-25 Age Group)</strong></summary>
-
-- 🔍 **Question**: Is variance of purchase amounts different by gender?  
-- ✅ **Conclusion**: Levene test shows a **significant difference**
-
-</details>
-
----
-
-## 4. 📌 Business Recommendations
-
-- 📉 **Re-evaluate Marketing for Men (18-25)**  
-  The average spend has shifted. Tailor pricing, product bundles, and offers accordingly.
-
-- 🔁 **Uniform Strategy for Men (18-35)**  
-  Since the % of high spenders is consistent, streamline campaigns across both age brackets.
-
-- 👩 **Investigate Shift in Women’s Spending**  
-  Adapt marketing and product design to re-engage and elevate average spend.
-
-- 🎯 **Gender-Specific Promotions for Age 18-25**  
-  Purchase variance justifies personalized product recommendations and ads.
-
-- 🧑‍💼 **Prioritize the 26–35 Age Group**  
-  They dominate in users and purchases. Double down on loyalty programs and stock preferences.
-
-- 🏙️ **Strategic City-Level Investment**
-  - 📌 City B: High purchase volume = upselling opportunity  
-  - 📌 City C: High user base = target for increasing purchase value
-
-- 💖 **Focus on Unmarried Customers**  
-  Bigger user base and higher avg spend. Customize offers for solo-lifestyle or aspirational products.
-
-- 📈 **Commit to Iterative, Data-Driven Decision Making**  
-  Regularly revisit KPIs and hypotheses to stay in sync with evolving customer behavior.
-
----
-
+📈 Continuous Data-Driven Decision Making: Regularly update and re-evaluate these insights and hypotheses with fresh data. This iterative approach will ensure that business strategies remain agile and responsive to evolving customer behaviors and market dynamics.
