@@ -8,7 +8,7 @@ This project involves a comprehensive analysis of sales order data from Total So
 
 ---
 
-## 2. 📊 Overview of Insights  
+## 2. 📊 Executive Summary  
 The detailed analysis of the purchase data has yielded several significant insights into customer demographics, purchasing patterns, and city-wise performance:
 
 ### 👥 Gender Demographics and Purchase Contribution  
@@ -25,12 +25,16 @@ The dataset comprises a total of 5,891 users, with males constituting the majori
 - As expected, the 26-35 age group exhibits the highest average purchase amount per user. Interestingly, despite having the lowest total purchase, the 0-17 age group surpasses the 55+ age group in terms of average purchase amount per user.
 
 ### 🏙️ City Category Performance  
+![Screenshot 2025-06-22 173714](https://github.com/user-attachments/assets/9510fe69-a0c2-453d-bb0a-74195a8bfe32)
+
 - City Category A accounts for the largest proportion of purchases at 42.25%, followed by City B at 30.83% and City C at 26.91%.  
 - City A, despite having the fewest users across all age groups, demonstrates the highest proportion of purchases, indicating a potentially higher customer retention rate. However, its average purchase amount per transaction is the lowest among all cities.  
 - Cities in Category B consistently attract the highest total purchase amount across age groups ranging from 18-25 to 51-55. This suggests a strong purchasing power and engagement in this category.  
 - Conversely, cities in Category C demonstrate the highest user acquisition for each age group, suggesting a broader customer base, albeit with potentially lower individual purchase values compared to City B. This implies that City B exhibits a higher average purchase amount compared to both City C and City A.
 
-### 💑 Marital Status and Purchase Behavior  
+### 💑 Marital Status and Purchase Behavior
+![Screenshot 2025-06-22 173839](https://github.com/user-attachments/assets/c03cecf4-d3af-4346-9cbd-028941d44560)
+
 The unmarried customer segment exhibits a higher average purchase amount per user, at 423,573, compared to the married group, which stands at 405,722.  
 Furthermore, the unmarried group also comprises a larger user base, with 3,417 users, as opposed to 2,474 users in the married group.
 
