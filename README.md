@@ -14,7 +14,10 @@ The detailed analysis of the purchase data has yielded several significant insig
 ### 👥 Gender Demographics and Purchase Contribution  
 The dataset comprises a total of 5,891 users, with males constituting the majority at 4,225 users and females at 1,666 users. Correspondingly, men account for a substantial 75.47% of total purchases, while women contribute 24.43%.
 
-### 👶 Age Group Performance  
+### 👶 Age Group Performance
+![Screenshot 2025-06-22 170722](https://github.com/user-attachments/assets/56b84fab-0f52-48ab-a7b2-5109925744c8) ![Screenshot 2025-06-22 170754](https://github.com/user-attachments/assets/b5c64d75-e55c-40d9-a155-b09a360fccd5)
+
+
 - The 26-35 age group demonstrates the highest engagement and purchasing activity, recording 104,912 purchases, nearly double that of the second-highest group (36-45), which registered 52,396 purchases. The 0-17 age group shows the lowest activity, with only 7,064 purchases.  
 - This trend extends to user count, with the 26-35 age group having the highest number of users (2,053) and the 0-17 age group having the fewest (218).  
 - Financially, the 26-35 age group leads significantly with a total purchase amount exceeding 975 million, whereas the 0-17 age group accounts for the lowest total purchase amount, over 64 million.  
