@@ -27,10 +27,11 @@ The dataset comprises a total of 5,891 users, with males constituting the majori
 ### 🏙️ City Category Performance  
 ![Screenshot 2025-06-22 173714](https://github.com/user-attachments/assets/9510fe69-a0c2-453d-bb0a-74195a8bfe32)
 
-- City Category A accounts for the largest proportion of purchases at 42.25%, followed by City B at 30.83% and City C at 26.91%.  
-- City A, despite having the fewest users across all age groups, demonstrates the highest proportion of purchases, indicating a potentially higher customer retention rate. However, its average purchase amount per transaction is the lowest among all cities.  
-- Cities in Category B consistently attract the highest total purchase amount across age groups ranging from 18-25 to 51-55. This suggests a strong purchasing power and engagement in this category.  
+- City Category B accounts for the largest proportion of purchases at 42.25%, followed by City C at 30.83% and City A at 26.91%.
+- City A consistently demonstrates the lowest performance across all age groups in terms of total purchases, total users, and total purchase amounts.
+- Cities in Category B consistently attract the highest total purchase amount across age groups ranging from 18-25 to 51-55. This suggests a strong purchasing power and engagement in this category.
 - Conversely, cities in Category C demonstrate the highest user acquisition for each age group, suggesting a broader customer base, albeit with potentially lower individual purchase values compared to City B. This implies that City B exhibits a higher average purchase amount compared to both City C and City A.
+
 
 ### 💑 Marital Status and Purchase Behavior
 ![Screenshot 2025-06-22 173839](https://github.com/user-attachments/assets/c03cecf4-d3af-4346-9cbd-028941d44560)
@@ -76,7 +77,7 @@ The distinct variances in purchase amounts between men and women in the 18-25 ag
 ---
 
 ### 🏙️ Strategic Focus on City Categories  
-- **City A**: Despite a lower user base and average purchase amount, City A exhibits high customer retention. Strategies should focus on nurturing this loyalty through personalized service, exclusive offers, and programs designed to increase the average transaction value over time.  
+- **City A**: As the lowest-performing city category across all metrics (purchases, users, and purchase amount), City A requires a strategic re-evaluation. Total Solutions should investigate the underlying reasons for its low performance. This might involve market research to understand local demographics, competitive landscape, or product-market fit. Depending on the findings, strategies could range from targeted promotional campaigns to re-evaluating store presence or product assortments in this specific category.
 - **City B**: Given its consistent high total purchase amount across key age groups (18-55), City B represents a high-value market. Investment should be directed towards expanding product availability, premium offerings, and loyalty programs that reward high spending.  
 - **City C**: With the highest user acquisition but lower average purchases, City C offers an opportunity for growth. Strategies here should focus on converting new users into repeat customers and gradually increasing their spending through targeted promotions and value-added services.
 
