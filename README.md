@@ -64,9 +64,6 @@ Four key hypotheses were rigorously tested to validate historical claims and cur
 ## 4. 📌 Business Recommendations  
 Based on the derived insights and the outcomes of the hypothesis tests, the following strategic recommendations are proposed for Total Solutions:
 
-### 🎯 Re-evaluate Marketing Strategies for Men (18-25)  
-Given that the average purchase by men in the 18-25 age group is no longer 10,000 (Hypothesis 1 rejected), it is crucial to re-evaluate and adjust marketing and sales strategies targeted at this demographic. New pricing, product bundles, or promotional offers should be designed to align with their current average spending patterns.
-
 ### 🔁 Maintain Consistent Strategies for Men Across Age Groups (18-35)  
 The finding that the percentage of men spending over 10,000 is consistent between the 18-25 and 26-35 age groups (Hypothesis 2 accepted) suggests that marketing approaches for high-value male customers can be broadly similar across these two significant age segments. Focus on strategies that successfully encourage higher spending within these groups.
 
