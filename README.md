@@ -25,7 +25,7 @@ The dataset comprises a total of 5,891 users, with males constituting the majori
 - As expected, the 26-35 age group exhibits the highest average purchase amount per user. Interestingly, despite having the lowest total purchase, the 0-17 age group surpasses the 55+ age group in terms of average purchase amount per user.
 
 ### 🏙️ City Category Performance  
-![Screenshot 2025-06-22 173714](https://github.com/user-attachments/assets/9510fe69-a0c2-453d-bb0a-74195a8bfe32)
+![Screenshot 2025-06-23 180645](https://github.com/user-attachments/assets/ed202b87-fc8f-4902-a861-421cc5e04ec3)
 
 - City Category B accounts for the largest proportion of purchases at 42.25%, followed by City C at 30.83% and City A at 26.91%.
 - City A consistently demonstrates the lowest performance across all age groups in terms of total purchases, total users, and total purchase amounts.
